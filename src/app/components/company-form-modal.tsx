@@ -1,8 +1,8 @@
 'use client';
 
 import React from 'react';
-import CompanyForm from '@/app/components/company-form';
-import Modal, { ModalProps } from '@/app/components/modal';
+import CompanyForm from './company-form';
+import Modal, { ModalProps } from './modal';
 
 export default function CompanyFormModal({ onClose, ...rest }: ModalProps) {
   return (
